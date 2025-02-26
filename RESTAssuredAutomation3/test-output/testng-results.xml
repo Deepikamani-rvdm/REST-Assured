@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-29T18:45:36 IST" name="Default suite" finished-at="2024-11-29T18:45:38 IST" duration-ms="1403">
+  <suite started-at="2025-02-08T16:49:06 IST" name="Default suite" finished-at="2025-02-08T16:49:08 IST" duration-ms="1716">
     <groups>
     </groups>
-    <test started-at="2024-11-29T18:45:36 IST" name="Default test" finished-at="2024-11-29T18:45:38 IST" duration-ms="1403">
-      <class name="tests.SoapXMLRequest">
-        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@6580cfdd]" started-at="2024-11-29T18:45:36 IST" name="validateSoapXML" finished-at="2024-11-29T18:45:38 IST" duration-ms="1387" status="PASS">
+    <test started-at="2025-02-08T16:49:06 IST" name="Default test" finished-at="2025-02-08T16:49:08 IST" duration-ms="1716">
+      <class name="demo.JWTTOKENAUTHENDICATION">
+        <test-method signature="testLoginAndGetToken()[pri:0, instance:demo.JWTTOKENAUTHENDICATION@4e91d63f]" started-at="2025-02-08T16:49:06 IST" name="testLoginAndGetToken" finished-at="2025-02-08T16:49:08 IST" duration-ms="1705" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSoapXML -->
-      </class> <!-- tests.SoapXMLRequest -->
+        </test-method> <!-- testLoginAndGetToken -->
+      </class> <!-- demo.JWTTOKENAUTHENDICATION -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

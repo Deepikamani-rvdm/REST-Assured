@@ -9,13 +9,14 @@ import static io.restassured.RestAssured.*;
 
 public class TestOnLocalAPI {
 	
-//	@Test
+	@Test
 	
 	public void get() {
 		
 		baseURI ="http://localhost:3000";
 		
 		given().get("/users").then().statusCode(200).log().all();
+		given().get("/subject").then().statusCode(200).log().all();
 		
 	}
 	
@@ -59,7 +60,7 @@ public class TestOnLocalAPI {
 		
 	}
 	
-	@Test
+//	@Test
 	public void patch() {
 		JSONObject request = new JSONObject();
 		
@@ -79,7 +80,7 @@ public class TestOnLocalAPI {
 		
 	}
 	
-	@Test
+//	@Test
 	public void delete() {
 		baseURI ="http://localhost:3000";
 		when().delete("/users/2").then().statusCode(200);

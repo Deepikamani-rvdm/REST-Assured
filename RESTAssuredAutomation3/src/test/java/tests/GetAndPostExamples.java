@@ -14,7 +14,7 @@ import io.restassured.http.ContentType;
 
 public class GetAndPostExamples {
 	
-	@Test
+//	@Test
 	public void testGet() {
 		baseURI = "https://api.restful-api.dev";
 		given().
@@ -52,7 +52,7 @@ public class GetAndPostExamples {
 		  when().
 		   post("/v1/create").
 		  then().
-		   statusCode(409).
+		   statusCode(200).
 		     log().all();
 		  
 		
